@@ -16,6 +16,4 @@ game.StarterGui:SetCore("SendNotification", {
 
 })
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/y2external/luda.lua/main/streamable.lua", true))()(
-
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/y2external/luda.lua/main/streamable.lua", true))()
