@@ -10,10 +10,9 @@
   ]]                                                            
                                                               
 
-game.StarterGui:SetCore("SendNotification", {
+game.StarterGui:SetCore("SendNotification",
     Title = "luda.lua";
     Text = "welcome to luda.lua best new streamable... enjoy :)";
 
-})
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/y2external/luda.lua/main/streamable.lua", true))()
